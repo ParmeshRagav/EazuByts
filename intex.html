@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1809979529.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="continer">
+                <nav>
+                    <img src="logo.png" class="logo" >
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Projects</a></li>
+                        <li><a href="#licence">Licenses & Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p style="color: #def2f1;">Electrical & Electroics Engineer | Front-End Developer</p>
+                    <h1>Hi, I'm <strong>Parmesh Ragav</strong></h1>
+
+                </div>
+            </div>
+
+        </div>
+      
+        <div id="about">
+            <div class="continer">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="about.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                          <h1 class="sub-title">About Me</h1>
+                          <br>
+                          <p>A passionate aspiring Engieer with a strong focus on front-end technologies.I have experience in HTML, CSS, JavaScript and I’m continuously improving my skills to become a proficient developer. On this website, you will find a collection of my projects, internships, publications, and more.Feel free to explore and get to know more about my work. If you have any questions or opportunities, don’t hesitate to reach out. I am always open to connecting with like-minded individuals and professionals.Thank you for visiting, and I hope you enjoy exploring my portfolio!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End development</span><br>HTML,CSS,JavaScript</li>
+                            <li><span>SQL</span><br>Using MySQL</li>
+                            <li><span>C programming</span><br>Basic C until pointers</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2024- July 2024</span><br>Internship at <strong>NLC India Ltd</strong></li>
+                            <li><span>Feb 2025- Mar 2025</span><br>Full Stack Development internship at <strong>Eazy Byts Web Solutions</strong></li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>SSLC-Shempark Public School-Score:85.2%</li>
+                            <li><span>2022</span><br>HSC-Royal International School-Score:91.2%</li>
+                            <li><span>2022-2026</span><br>B.E Electrical and Electronics Engineering-CGPA:9.96</li>
+                        </ul>
+
+                    </div>
+                </div>
+             </div>    
+        </div>
+    </div>
+    <!------------->
+    <div id="services">
+           <div class="container">
+            <h1 class="sub-title">Projects & Publications</h1>
+            <div class="services-list">
+                <div>
+                    <h2 style="font-style: italic;">Smart Terrace Garden Irrigation System</h2>
+                    <br>
+                    <h3 style="font-style: italic;">Jun 2023 - May 2024</h3>
+                    <p>Developed an IoT-based system to automate irrigation in terrace gardens,
+                    optimizing water usage and enhancing plant health.</p>
+                </div>
+                <div>
+                    <h2 style="font-style: italic;">Food Wastage Awareness System</h2>
+                    <br>
+                    <h3 style="font-style: italic;">Jun 2024 - May 2025</h3>
+                    <p>Designed a system to measure and monitor food waste using load cells and lot technology,
+                     promoting accountability among students and improving sustainability.</p>
+                </div>
+                <div>
+                    <h2 style="font-style: italic;">PUBLICATION</h2>
+                    <h3 style="font-style: italic;">Smart terrace garden irrigation with IoT technology</h3>
+                    <p>Published in:2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS)</p>
+                    
+                    <a href="https://ieeexplore.ieee.org/document/10625325" style="font-style: italic;">Show publication</a>
+                </div>
+            </div>
+           </div>   
+    </div>
+
+    <div id="licence">
+        <div class="container">
+         <h1 class="sub-title">Licenses & Certifications</h1>
+         <div class="license-list">
+             <div>
+                 <h2 style="font-style: italic;">Introduction to Programming Using HTML and CSS</h2>
+                 <br>
+                 <p>Issuing organisation:EDUONIX</p>
+                 <p>Issued:Jan 2025</p>
+                 <p>Credential ID:1e7b925bd6</p>
+             </div>
+             <div>
+                <h2 style="font-style: italic;">Introduction to Internet of things</h2>
+                 <br>
+                 <p>Issuing organisation:NPTEL</p>
+                 <p>Issued:April 2024</p>
+                 <p>Credential ID:NPTEL24CS35S553801656</p>
+                 <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS35S55380165630622144" style="font-style: italic; font-weight: bold;">Show publication</a>
+             </div>
+             <div>
+                 <h2 style="font-style: italic;">Basics of Microsoft Power Bi</h2>
+                 <br>
+                 <p>Issuing organisation:UniAthena</p>
+                 <p>Issued:Jan 2025</p>
+                 <p>Credential ID:9083-8701-0179</p>
+                 <a href="https://uniathena.com/verify/certificate?certID=9083-8701-0179" style="font-style: italic; font-weight: bold;">Show publication</a>
+                 
+             </div>
+         </div>
+        </div>   
+ </div>
+
+<!------------------>
+<div id="contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            
+            <p><i class="fa-solid fa-paper-plane"></i>  parmeshragav.2203110@srec.ac.in</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+            <a href="ParmeshRagav_CV.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+<div class="copyright r">
+    <p>Copyright ©️ Parmesh Ragav.</p>
+</div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    </body>
+    </html>
